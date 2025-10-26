@@ -22,32 +22,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-# from utils import URL
-# from utils.db import get_engine, get_session
-# from utils.fakerwrapper import get_faker
-
-
-# url = URL.create(
-#     drivername="postgresql",
-#     username="postgres",
-#     password="postgres",
-#     host="localhost",
-#     port=5432,
-#     database="sample_db",
-# )
-# engine = get_engine(url)
-# session, session_meta = get_session(engine)
-
-# faker = get_faker()
-
-
-# # with Session(engine) as session:
-# #     FlowProvider = DynamicProvider(
-# #         provider_name="flow",
-# #         elements=[UserSignupFlow(session)],
-# #     )
-# #     faker.add_provider(FlowProvider)
-
-# #     flow = faker.flow()
-# #     flow.execute()

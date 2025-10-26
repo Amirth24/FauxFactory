@@ -1,3 +1,5 @@
+# This is a sample config
+
 [Emulator]
 flow_size = 100
 
