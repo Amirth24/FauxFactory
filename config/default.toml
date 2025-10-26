@@ -1,0 +1,14 @@
+[Emulator]
+flow_size = 100
+
+[[database]]
+name = "main_db"
+protocol = "postgresql"
+host = "localhost"
+port = 5432
+username = "postgres"
+password = "postgres"
+database = "sample_db"
+
+[logging]
+level = "INFO"
